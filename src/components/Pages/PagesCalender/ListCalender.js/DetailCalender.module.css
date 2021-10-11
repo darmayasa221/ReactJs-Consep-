@@ -1,0 +1,26 @@
+.wrap_calender{
+  align-items: center;
+  justify-content: space-around !important;
+  margin:5px;
+  padding: 5px;
+  width: 95vh;
+  border-radius: 10px;
+  background-color: rgb(172, 172, 172);
+}
+.wrap_calender .wrap_infrom {
+  background-color: gray;
+  border-radius: 5px;
+  width: 100px;
+  display: flex;
+  flex-direction:column ;
+  text-align: center;
+}
+
+.wrap_infrom .text_date {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.wrap_infrom .text_event {
+  margin: 0 0 10px 0;
+}

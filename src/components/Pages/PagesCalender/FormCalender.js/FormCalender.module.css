@@ -1,0 +1,35 @@
+.container form {
+  width: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0 20px 0;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.container form .wrap_label{
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap_label label {
+  margin: 5px;
+}
+
+.wrap_label label input {
+  width: 20vw;
+  height: 3vh;
+  border-radius: 5px;
+  border-color: honeydew;
+}
+
+.container form .btn__form_calender {
+  transition: 0.5s;
+  background-color:rgb(62, 143, 235);
+}
+
+.container form .btn__form_calender:hover {
+  transition: 0.5s;
+  background-color:rgb(62, 235, 128);
+}

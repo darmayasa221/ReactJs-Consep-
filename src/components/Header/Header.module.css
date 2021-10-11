@@ -1,0 +1,35 @@
+.header {
+  background-color: deepskyblue;
+  display: flex;
+  justify-content: center;
+}
+.header .contain {
+  width: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contain select {
+  width: 10vh;
+  border-color: transparent;
+  border-radius: 2.5px;
+}
+
+.contain nav {
+  width: 40vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contain nav a {
+  text-decoration: none;
+  color: black;
+  font-family: Robot Mono;
+  font-size: large;
+}
+
+.contain nav a:hover {
+  border-bottom: black 1px solid;
+}
+
